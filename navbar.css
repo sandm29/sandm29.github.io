@@ -1,0 +1,138 @@
+a{
+    font-size: 20px;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: none;
+}
+
+nav ul{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+nav ul li a{
+    padding: 7px 13px;
+    text-transform: uppercase;
+    
+}
+
+a:hover{
+    border-bottom: solid 1px black;
+}
+
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    margin-right: 40px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 950px){
+    nav ul li a{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 850px){
+    a{
+        color:rgb(211, 219, 244);
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(91, 0, 177);
+        top: 80px;
+        left: -120%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+            font-size: 20px;
+    }
+    li a:hover{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: -20px;
+    }
+    #head-div{
+        flex-direction: column;
+    }
+    .header{
+        padding: 10px;
+    }
+    h1{
+        font-size: 20px!important
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    #about-text{
+        width: 100% !important;
+    }
+    #home-gif{
+        width: 100% !important;
+    }
+    #stack-div{
+        flex-direction: column !important;
+    }
+    .stack{
+        margin: 10px;
+    }
+
+
+    #certificate-section{
+        height: auto;
+        width: 80%;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+        border: solid black 2px;
+    }
+    
+    #certificate1{
+        width: 100%; height: auto; margin: 5px;
+    }
+    #certificate2{
+        width: 100%; height: auto; margin: 5px;
+    }
+    #certificate3{
+        width: 100%; height: auto; margin: 5px;
+    }
+}

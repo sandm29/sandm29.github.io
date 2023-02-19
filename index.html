@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@283&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="nav">Home</a></li>
+            <li><a href="#About-me">About me</a></li>
+            <li><a href="#">Stack</a></li>
+        </ul>
+    </nav>
+    <section id="head-div">
+        <div class="header" style="margin-bottom: 20px;" data-aos="fade-down"  data-aos-duration="3000">
+            <h1 style="font-size: 30px;">Santiago del Monaco</h1>
+            <h2>Web Developer</h2>
+        </div>
+        <div class="header" data-aos="fade-down" data-aos-duration="1500">
+            <img src="Designer-gif.gif" alt="" height="100%" width="40%" id="home-gif">
+        </div>
+    </section>
+    <section id="About-me" data-aos="fade-right"  data-aos-duration="1500">
+        <div class="header" style="padding: 20px;">
+            <h1 style="font-size: 30px;">About me</h1> <br> <br>
+            <p style="text-align: justify; width: 50%;" id="about-text" >Hey,there! I'm Santiago and i am an argentinian web developer. At the moment, im 17. Im about to graduate from highschool meanwhile i study to become a fullstack developer.<br> In my free time, you will find me playing Field Hockey or learning new tecnologies.</p>
+        </div>
+    </section>
+    <br><br><br>
+    <section id="stack-section" data-aos="fade-right"  data-aos-duration="1500">
+        <div class="header" id="stack-div">
+            <li class="stack"><img src="html-5.png" alt="" width="50%" height="50%"><p>HTML</p></li>
+            <li class="stack"><img src="css-3.png" alt="" width="50%" height="50%"><p>CSS</p></li>
+            <li class="stack"><img src="js.png" alt="" width="50%" height="50%"><p>JAVASCRIPT</p></li>
+            <li class="stack"><img src="mysql.png" alt="" width="50%" height="50%"><p>MYSQL</p></li>
+            <li class="stack"><img src="piton.png" alt="" width="50%" height="50%"><p>PYTHON</p></li>
+        </div>
+    </section>
+    <section id="align" >
+        <section id="certificate-section">
+        <img src="utn html y css-1.png" alt="" id="certificate1" data-aos="fade-down"  data-aos-duration="1500">
+        <img src="utn js 1-1.png" alt="" id="certificate2" data-aos="fade-down"  data-aos-duration="1500">
+        <img src="utn js 2-1.png" alt="" id="certificate3" data-aos="fade-down" data-aos-duration="1500">
+        </section>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

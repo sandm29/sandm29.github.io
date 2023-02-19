@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(211, 219, 244);
+
+}
+
+#head-div{
+    margin-top: 80px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#stack-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+#stack-div{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.stack{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.stack:hover{
+    box-shadow: 2px 2px 4px  black;
+}
+
+#align{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#certificate-section{
+    height: auto;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+#certificate1{
+    width: 100%; height: auto; margin: 10px;
+    transition: 1s;
+}
+
+#certificate1:hover{
+    box-shadow: 0 0 20px;
+}
+#certificate2{
+    width: 100%; height: auto; margin: 10px;
+    transition: 1s;
+}
+#certificate2:hover{
+    box-shadow: 0 0 20px;
+}
+#certificate3{
+    width: 100%; height: auto; margin: 10px;
+    transition: 1s;
+}
+#certificate3:hover{
+    box-shadow: 0 0 20px;
+}
